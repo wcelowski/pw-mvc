@@ -13,7 +13,9 @@ export default class TodoView {
         const html = document.createRange().createContextualFragment(
         '<div id="todo-view">' +
             '        <div id="todo-list-items">' +
-            '             <ul class="list-group py-5">' + model.getItems().map(item => `<li class="list-group-item">${item}</li>`).join('') + '</ul>' +
+            '             <ul class="list-group py-5">' +
+                            model.getItems().map(item => `<li class="list-group-item">${item}</li>`).join('') +
+            '              </ul>' +
             '        </div>' +
             '        <div class="input-group">' +
             '            <label for="new-item" class="px-2 pt-1 form-label">' +

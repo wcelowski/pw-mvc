@@ -12,7 +12,6 @@ const find = () => {
     })
 }
 
-
 const toDoList: TodoListModel = new TodoListModel(
     [
         'item1',

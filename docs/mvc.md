@@ -1,4 +1,5 @@
 @startuml
+actor User as User
 
 User -> View: addItem
 View -> Controller: addItemEvent
